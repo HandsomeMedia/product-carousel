@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Product Carousel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<img class='logo' src='https://d3jlxzdxc80cmp.cloudfront.net/axtdt/amazon.png' width='150px' height='50px' />
+<hr>
+<div class='widget'>
+  <custom-slider src="https://d3jlxzdxc80cmp.cloudfront.net/adt/hiring/exercise2/echo_products.json" indicators="true" accent-color="#FFAA00" focus-outline="false">
+  </custom-slider>
+</div>
+<h3>Amrir Toufali</h3>
+<p class='links'>
+  <a href='http://HandsomeMedia.com' target='_blank'>Portfolio</a><br>
+  <a href='https://handsome-spring-cleaning.herokuapp.com/' target='_blank'>Recent Project 1</a><br>
+  <a href='https://handsome-fortunes.herokuapp.com/' target='_blank'>Recent Project 2</a><br>
+</p>
+<hr>
+<h2>Carousel Notes</h2>
+<ul>
+  <li>Built as a native modern reusable <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Component</a> (no external libs/frameworks)
+  <li>Works on modern browsers, but best viewed on Chrome with DevTools turned <strong>off</strong>
+  <li>Swipeable scrolling with snap-points and responsive layout
+  <li>Indicators are responsive to tap/click
+  <li>Star-rating accurately displays the decimal number rating instead of rounding to halfs
+  <li>Works with any background-color
+  <li>The <code>indicators</code> attribute can be set to false to preserve space
+  <li>The <code>accent-color</code> attribute is any valid hex or color name
+  <li>The <code>focus-outline</code> attribute can be set to true if you want to uglify the carousel for keyboard users/accessibility
+  <li>Don't be scared of the JS panel - this custom element is portable and <strong>styles stay scoped</strong>. The CSS panel was not used.
+  <li>But are we sure this carousel is <a href="http://shouldiuseacarousel.com/" target="_blank">really necessary</a>? 😉
+</ul>
+<br><br>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.4.0/smoothscroll.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
